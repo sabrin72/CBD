@@ -1,0 +1,14 @@
+- La table RDV est liée à la table Patient via la clé étrangère idPatient.
+- La table Consultation est également liée à la table Patient via la clé étrangère idPatient.
+- La table Consultation est liée à la table Prescription via la clé étrangère idConsultation.
+- La table DossierMédical est liée à la table Patient via la clé étrangère idPatient.
+
+Voici comment ces liens seraient représentés dans le modèle relationnel :
+
+
+RDV (IDrendez-vous(IDRDV), date, heure, #IDPatient)
+Patient (IDPatient, nom, prénom, Date de naissence(DateNaiss), téléphone)
+Consultation (IDConsultation, #IDpatient, date de consultation(DateConsu), symptomes, diagnostics, traitement)
+Prescription (IDPrescription, #IDConsultation, dateprep, médicaments, posologie)
+DossierMédical (IDDossier, #IDPatient, Historique medical)
+FichePatient (IDfiche, #IDPatient, informations, historiqueConsultations)

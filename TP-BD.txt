@@ -1,0 +1,102 @@
+
+
+ Étude de l'existant et Dictionnaire de Données :
+
+1\- Étude de l'existant :
+
+definieon des objectifs:
+
+. gestion des RDV 
+. gestion et le suivi numerique du dossier medical des patients
+. gestion du fiche patient
+
+collecte d'informations
+
+   Gestion des RDV :
+. Actuellement, les rendez-vous sont pris de manière manuelle, entraînant des risques 
+   de RDV ratés, redondants, antidatés, et des échanges entre patients.
+. La salle d'attente peut être surchargée certains jours et vide d'autres jours.
+
+   Dossier Médical :
+. Les dossiers médicaux sont principalement en format papier.
+. La gestion des dossiers médicaux peut être sujette à des retards et à des difficultés
+   dans le partage sécurisé des informations médicales.
+
+
+
+2\- Dictionnaire de Données :
+   
+   1. RDV :
+      - Date et heure du rendez-vous
+      - Nom et prénom du patient
+      - Motif de la consultation
+      - Statut du RDV (confirmé, annulé, en attente)
+      - Remarques spécifiques
+
+   2. Dossier Médical Numérique :
+      - Historique des consultations
+      - Résultats d'examens
+      - Prescription médicale
+      - Suivi des traitements
+      - Informations sur les allergies
+      - Consentement du patient pour le partage d'informations
+
+    3. Fiche Patient :
+      - Nom
+      - Prénom
+      - Date de naissance
+      - Sexe
+      - Adresse
+      - Numéro de téléphone
+      - Numéro d'identification unique (ID patient)
+      - Historique des consultations
+
+
+
+
+    Solutions Opérationnelles :
+
+1. Gestion des RDV :
+
+
+   a. Système de Rendez-vous en Ligne :
+      - Intégrez des sms automatiques pour rappeler aux patients leurs RDV.
+
+   b. Optimisation des Plannings :
+      - Utilisez des algorithmes pour optimiser les plannings, en prenant
+          en compte la charge de travail du cabinet.
+      - Évitez les rendez-vous antidatés en intégrant des contrôles de date.
+
+   c. Gestion des Retards :
+      - Mettez en place un système de rappel automatique pour informer les 
+          patients des retards potentiels.
+      - Utilisez des alertes pour avertir le personnel médical des retards.
+   
+
+ligne ordonnance
+
+
+
+
+
+2. Dossier Médical Numérique :
+
+   a. Implémentation d'un Système de DME :
+      - Mettez en place un système de dossier médical électronique sécurisé 
+         et conforme aux normes de confidentialité.
+      - Permettez aux professionnels de santé autorisés d'accéder en temps 
+        réel aux informations du dossier médical.
+
+   b. Gestion des Autorisations d'Accès :
+      - Établissez des niveaux d'autorisation pour garantir que seules les 
+         personnes autorisées ont accès à certaines informations du dossier médical.
+      - Informez les patients sur le partage d'informations et obtenez leur consentement éclairé.
+
+   c. Formation du Personnel :
+      - Fournissez une formation approfondie au personnel médical sur 
+         l'utilisation du système de dossier médical électronique.
+      - Assurez-vous que le personnel est conscient des protocoles de sécurité.
+
+   d. Système de Partage Sécurisé :
+      - Mettez en place un système de partage sécurisé des informations médicales
+         entre différents acteurs de la santé, avec un suivi des accès.
